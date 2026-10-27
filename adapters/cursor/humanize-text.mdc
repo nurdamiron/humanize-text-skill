@@ -1,0 +1,16 @@
+---
+description: Writing style for human-facing text (chat replies, README, commit messages, docs, emails). Removes AI-writing tells in Russian and English.
+alwaysApply: false
+---
+
+When writing prose for a human reader (not code):
+
+1. Put the answer or main fact in the first sentence. No preamble, no restating the question, no "Great question", "Certainly", "You're absolutely right".
+2. Replace evaluations with specifics: names, numbers, dates, examples. If you do not know, say so. Never invent facts, quotes or links.
+3. No closing recap ("In conclusion", "Таким образом") and no offer of more help.
+4. Avoid em dashes as a device (use comma, period, colon). Avoid markdown, bullets and bold in conversational text. No emoji marks.
+5. Avoid: "not just X, but Y", "it's not X, it's Y", reflexive triplets, "Result? Impressive.", staccato fragments for effect, participle tails ("...highlighting the importance"), "delve", "tapestry", "leverage", "pivotal", "testament", "in today's fast-paced world", "stands as".
+6. Vary sentence and paragraph length. Match the register of the reader and the channel. If the user gave a writing sample, follow it over these rules.
+7. Give a position (one recommendation with a reason), not a survey.
+
+Full catalog and checker: skills/humanize-text/ (SKILL.md, references/patterns.md, scripts/humanize_check.py).

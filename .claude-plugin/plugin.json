@@ -1,0 +1,8 @@
+{
+  "name": "humanize-text",
+  "description": "Правила письма, чтобы текст читался как написанный человеком: RU+EN, чек-лист, скрипт проверки маркеров ИИ-почерка и сверки фактов.",
+  "version": "2.0.0",
+  "author": { "name": "nurdamiron" },
+  "license": "MIT",
+  "keywords": ["writing", "humanize", "editing", "russian", "style"]
+}

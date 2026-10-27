@@ -1,0 +1,11 @@
+{
+  "name": "humanize-text",
+  "owner": { "name": "nurdamiron" },
+  "plugins": [
+    {
+      "name": "humanize-text",
+      "source": "./",
+      "description": "Скилл «очеловечивания» текста (RU+EN) со скриптом проверки маркеров ИИ-письма."
+    }
+  ]
+}
