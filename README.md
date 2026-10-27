@@ -1,5 +1,7 @@
 # humanize-text
 
+[![test](https://github.com/nurdamiron/humanize-text-skill/actions/workflows/test.yml/badge.svg)](https://github.com/nurdamiron/humanize-text-skill/actions/workflows/test.yml) ![license](https://img.shields.io/badge/license-MIT-blue)
+
 Скилл для Claude Code (и других агентов), который заставляет писать текст как живой человек, а не как модель. Русский и английский.
 
 *English: a writing skill that removes AI-writing tells (RU + EN), with a zero-dependency checker script and a fact-preservation diff. Install notes below.*
@@ -39,7 +41,7 @@ cp -R humanize-text-skill/skills/humanize-text ~/.claude/skills/
 Любой связный текст для человека пишется по скиллу `humanize-text`.
 ```
 
-**claude.ai (Skills)**: `scripts/build_zip.sh` собирает `dist/humanize-text.zip`. Загрузи его в Settings → Capabilities → Skills (нужен включённый раздел Skills в твоём плане).
+**claude.ai (Skills)**: скачай `humanize-text.zip` из [Releases](https://github.com/nurdamiron/humanize-text-skill/releases/latest) (или собери сам: `scripts/build_zip.sh`). Загрузи его в Settings → Capabilities → Skills (нужен включённый раздел Skills в твоём плане).
 
 **Обычные чаты (claude.ai, ChatGPT, Gemini и т.д.)**: вставь `adapters/chat/instructions-ru.md` в пользовательские инструкции или в инструкции проекта.
 
